@@ -1,0 +1,11 @@
+This project, titled "Keyword Extraction from Articles using NLP", is designed to extract meaningful keywords from a collection of articles using Natural Language Processing techniques. The primary aim is to identify relevant keywords that help in summarizing content, improving search engine optimization (SEO), and enabling efficient content indexing. The project is implemented in a Jupyter Notebook format and uses a combination of preprocessing steps, keyword extraction algorithms, and visualizations to deliver comprehensive insights.
+
+The notebook, named NLP_PROJECT_KEYWORD EXTRACTION FROM ARTICLES.ipynb, processes a dataset of articles stored in CSV format. Each article is expected to have a title and a content field. The workflow begins with preprocessing, which includes tokenization, stopword removal, and lemmatization, using tools like NLTK and spaCy. Two main keyword extraction techniques are applied: TF-IDF (Term Frequency-Inverse Document Frequency), which statistically evaluates how important a word is to a document in a corpus, and RAKE (Rapid Automatic Keyword Extraction), which identifies keywords based on word frequency and co-occurrence without the need for a training corpus.
+
+To visualize the results, word clouds and bar charts are generated using the matplotlib and wordcloud libraries. These visualizations help users understand the distribution and prominence of keywords across the dataset. The notebook supports batch processing, allowing multiple articles to be analyzed at once.
+
+To run this project, Python libraries such as pandas, numpy, nltk, spacy, rake-nltk, scikit-learn, wordcloud, and matplotlib are required. All dependencies can be installed using the command pip install -r requirements.txt.
+
+This project can be applied in various domains such as search engine optimization, document classification, content recommendation, and automatic summarization. It is particularly useful for researchers, digital marketers, and developers interested in automating content analysis workflows.
+
+Acknowledgements go to open-source libraries like NLTK, spaCy, RAKE-NLTK, and Scikit-learn, which made the implementation of this project possible. The notebook provides a modular and transparent approach, making it easy to extend or integrate into larger systems for information retrieval or text mining tasks.
